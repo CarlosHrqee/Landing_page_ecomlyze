@@ -55,13 +55,13 @@ const Navbar = () => {
 
         <div className="flex items-center gap-2">
           <a
-            href="/login"
+            href="https://app.ecomlyze.com/login"
             className="px-5 py-2 rounded-full text-white font-semibold hover:bg-gray-800 transition-colors"
           >
             Login
           </a>
           <a
-            href="/integrar"
+            href="https://app.ecomlyze.com/registro"
             className="px-5 py-2 rounded-full bg-gradient-to-r from-gray-700 to-gray-900 text-white font-semibold hover:from-gray-800 hover:to-black transition-all"
           >
             Integrar agora
