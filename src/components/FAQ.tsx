@@ -76,7 +76,7 @@ const FAQ = () => {
         </div>
         <div className="mt-12 text-center">
           <a 
-            href="https://tally.so/r/wLM912" 
+            href="https://wa.me/5565996203293" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-gray-700 to-gray-900 text-white px-6 py-3 rounded-lg font-medium hover:from-gray-800 hover:to-black transition-all"
