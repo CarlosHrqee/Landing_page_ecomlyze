@@ -8,7 +8,7 @@ const features = [
     description: "Crie e dispare campanhas de SMS automaticamente com textos otimizados por IA, segmentando públicos e aumentando a taxa de abertura e conversão do seu e-commerce.",
     image: "/images/SMS.png",
     buttons: [
-      { text: "Iniciar teste grátis", primary: true, href: "https://tally.so/r/wLM912" },
+      { text: "Iniciar teste grátis", primary: true, href: "https://wa.me/5565996203293" },
       { text: "Fale com um especialista", primary: false, href: "https://wa.me/5565996203293" }
     ]
   },
