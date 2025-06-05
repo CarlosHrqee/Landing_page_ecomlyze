@@ -67,7 +67,7 @@ const IntegrationPlatforms = () => {
         <div className="mt-12 text-center">
           <p className="text-gray-400 mb-6">E muitas outras plataformas...</p>
           <a
-            href="https://app.ecomlyze.com/registro"
+            href="https://wa.me/5565996203293"
             className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-gray-700 to-gray-900 text-white px-6 py-3 rounded-lg font-medium hover:from-gray-800 hover:to-black transition-all"
           >
             Integrar ao meu ecommerce
