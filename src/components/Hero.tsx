@@ -2,9 +2,9 @@ import React from 'react';
 
 const Hero = () => (
   <section className="relative min-h-[85vh] flex flex-col justify-center items-center bg-black text-center px-4 py-16 md:py-24 overflow-hidden">
-    <div className="relative z-10 pt-16 md:pt-8 max-w-7xl mx-auto">
+    <div className="relative z-10 pt-4 md:pt-8 max-w-7xl mx-auto">
       <div className="mb-0">
-        <div className="relative inline-block mb-12 md:mb-8">
+        <div className="relative inline-block mb-4 md:mb-8">
           <div className="absolute inset-0 rounded-full blur-sm bg-gradient-to-r from-teal-400/70 via-yellow-400/70 to-purple-500/70"></div>
           <span className="relative inline-block px-6 py-2 rounded-full text-base md:text-lg bg-black text-white tracking-wide" style={{letterSpacing: '0.02em'}}>
             💬📱 SMS para ecommerces
