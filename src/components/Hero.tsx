@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Hero = () => (
   <section className="relative min-h-[70vh] flex flex-col justify-center items-center bg-black text-center px-4 overflow-hidden">
     {/* Sombra branca de fundo, leve e à direita */}
@@ -19,7 +21,7 @@ const Hero = () => (
       <p className="text-lg md:text-2xl text-[#a3a3a3] max-w-4xl mx-auto mb-10">
         Dispare campanhas de SMS com a maior taxa de entrega e visualização do mercado, aumentando o faturamento e o LTV do seu e-commerce.
       </p>
-      <div className="flex flex-col sm:flex-row gap-4 justify-center">
+      <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
         <a
           href="https://wa.me/5565996203293"
           target="_blank"
@@ -34,6 +36,13 @@ const Hero = () => (
         >
           Saiba mais
         </a>
+      </div>
+      <div className="flex justify-center">
+        <img
+          src="/images/dashboard.png"
+          alt="Dashboard do software de SMS para e-commerce"
+          className="w-full max-w-4xl h-auto object-contain rounded-lg shadow-lg"
+        />
       </div>
     </div>
   </section>
