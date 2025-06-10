@@ -33,7 +33,7 @@ const Hero = () => (
           href="#faq"
           className="inline-flex items-center justify-center gap-2 bg-transparent border border-gray-700 text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-900 transition-all"
         >
-          Saiba mais
+          Agendar demonstração
         </a>
       </div>
       <div className="flex justify-center mb-8">
