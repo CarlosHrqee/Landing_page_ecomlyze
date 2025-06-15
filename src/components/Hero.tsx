@@ -15,7 +15,7 @@ const Hero = () => (
         className="text-5xl md:text-7xl font-bold mb-8 leading-tight text-[#e5e5e5] mt-0"
         style={{ textShadow: '0 4px 32px rgba(255,255,255,0.15), 0 1.5px 8px rgba(255,255,255,0.10)' }}
       >
-        Crie campanhas no canal com maior taxa de conversão para ecommerces
+        Aumente suas vendas com campanhas SMS para o seu ecommerce
       </h1>
       <p className="text-lg md:text-2xl text-[#a3a3a3] max-w-4xl mx-auto mb-12">
         Dispare campanhas de SMS com a maior taxa de entrega e visualização do mercado, aumentando o faturamento e o LTV do seu e-commerce.
