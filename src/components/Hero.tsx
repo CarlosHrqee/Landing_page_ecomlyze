@@ -38,7 +38,7 @@ const Hero = () => (
       </div>
       <div className="flex justify-center mb-8">
         <img
-          src="/images/dashboard.png"
+          src="/images/ecom1.png"
           alt="Dashboard do software de SMS para e-commerce"
           className="w-full max-w-5xl h-auto object-contain rounded-2xl shadow-lg border border-gray-700/30"
         />
