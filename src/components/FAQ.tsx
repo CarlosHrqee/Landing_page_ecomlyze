@@ -4,44 +4,46 @@ import {
   FaCogs, 
   FaPlug, 
   FaShieldAlt, 
-  FaRobot 
+  FaRobot, 
+  FaEnvelopeOpenText, 
+  FaPhoneAlt 
 } from 'react-icons/fa';
 
 const faqs = [
   {
-    question: "Como a IA melhora minhas campanhas de SMS?",
-    answer: "Nossa IA analisa o comportamento e os dados dos seus clientes para criar mensagens personalizadas, aumentando a taxa de abertura, engajamento e conversão das campanhas.",
+    question: "Como funciona o disparo multicanal (SMS, e-mail e voz)?",
+    answer: "A plataforma identifica o melhor canal para cada cliente com base no histórico de interação, aumentando as chances de abertura e conversão de cada campanha.",
+    icon: <FaEnvelopeOpenText className="text-gray-400" />,
+    iconBg: "bg-gray-900/20",
+  },
+  {
+    question: "Como a IA personaliza os disparos para aumentar a recompra?",
+    answer: "A IA cria funis personalizados de recompra, entendendo o ciclo de vida de cada cliente e enviando mensagens no momento ideal com ofertas específicas.",
     icon: <FaRobot className="text-gray-400" />,
     iconBg: "bg-gray-900/20",
   },
   {
-    question: "Quais integrações estão disponíveis?",
-    answer: "Você pode integrar facilmente com as principais plataformas de e-commerce, CRMs e ERPs do mercado, além de importar listas de contatos de forma simples.",
-    icon: <FaPlug className="text-gray-400" />,
-    iconBg: "bg-gray-900/20",
-  },
-  {
-    question: "Consigo acompanhar os resultados em tempo real?",
-    answer: "Sim! O painel mostra aberturas, cliques, conversões e vendas geradas por cada campanha, permitindo ajustes rápidos para maximizar o ROI.",
+    question: "É possível acompanhar os resultados em tempo real?",
+    answer: "Sim! Você visualiza entregas, cliques, ligações atendidas e conversões direto no painel em tempo real, otimizando suas ações com dados precisos.",
     icon: <FaChartLine className="text-gray-400" />,
     iconBg: "bg-gray-900/20",
   },
   {
-    question: "É possível automatizar o envio de SMS?",
-    answer: "Sim, você pode programar disparos automáticos com base em eventos, datas especiais ou comportamento do cliente, tudo de forma simples e intuitiva.",
-    icon: <FaBolt className="text-gray-400" />,
-    iconBg: "bg-gray-900/20",
-  },
-  {
-    question: "Meus dados e dos meus clientes estão seguros?",
-    answer: "Sim, seguimos as melhores práticas de segurança e LGPD, garantindo total proteção e privacidade dos dados.",
-    icon: <FaShieldAlt className="text-gray-400" />,
-    iconBg: "bg-gray-900/20",
-  },
-  {
-    question: "Qual o diferencial do Ecomlyze?",
-    answer: "Além da automação e IA, oferecemos suporte especializado, integrações rápidas e foco total em resultados para ecommerces de todos os portes.",
+    question: "Preciso de conhecimento técnico para usar?",
+    answer: "Não! A plataforma foi feita para equipes de marketing e vendas. Em poucos minutos você configura campanhas automatizadas, mesmo sem conhecimento técnico.",
     icon: <FaCogs className="text-gray-400" />,
+    iconBg: "bg-gray-900/20",
+  },
+  {
+    question: "E se eu quiser integrar com minha loja ou CRM?",
+    answer: "Oferecemos integração com as principais plataformas de e-commerce e CRMs do mercado, além de suporte técnico dedicado para conectar rapidamente seus sistemas.",
+    icon: <FaPlug className="text-gray-400" />,
+    iconBg: "bg-gray-900/20",
+  },
+  {
+    question: "A plataforma é segura e está em conformidade com a LGPD?",
+    answer: "Sim. Utilizamos criptografia e boas práticas de segurança para proteger seus dados e dos seus clientes, em total conformidade com a LGPD.",
+    icon: <FaShieldAlt className="text-gray-400" />,
     iconBg: "bg-gray-900/20",
   }
 ];
@@ -54,7 +56,7 @@ const FAQ = () => {
           Perguntas Frequentes
         </h2>
         <p className="text-center text-gray-300 max-w-2xl mx-auto mb-16">
-          Tire suas dúvidas sobre como o Ecomlyze pode transformar o atendimento do seu e-commerce
+          Tire suas dúvidas sobre como a nossa plataforma multicanal pode aumentar as vendas do seu e-commerce
         </p>
         <div className="grid gap-6">
           {faqs.map((faq, index) => (
@@ -84,7 +86,7 @@ const FAQ = () => {
             <span className="w-4 h-4">
               <FaPlug className="text-white" />
             </span>
-            Integrar ao meu ecommerce
+            Integrar ao meu e-commerce
           </a>
         </div>
       </div>
