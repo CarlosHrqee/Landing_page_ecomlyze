@@ -15,10 +15,10 @@ const Hero = () => (
         className="text-5xl md:text-7xl font-bold mb-8 leading-tight text-[#e5e5e5] mt-0"
         style={{ textShadow: '0 4px 32px rgba(255,255,255,0.15), 0 1.5px 8px rgba(255,255,255,0.10)' }}
       >
-        Aumente suas vendas com campanhas SMS para o seu ecommerce
+        Vendas recorrentes no automático com campanhas personalizadas de e-mail, SMS e voz
       </h1>
       <p className="text-lg md:text-2xl text-[#a3a3a3] max-w-4xl mx-auto mb-12">
-        Dispare campanhas de SMS com a maior taxa de entrega e visualização do mercado, aumentando o faturamento e o LTV do seu e-commerce.
+        Crie, dispare SMS,e-mails e ligações no momento certo para gerar mais vendas e aumentar o LTV do seu e-commerce sem depender de tráfego pago.
       </p>
       <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
         <a
