@@ -7,7 +7,7 @@ const Hero = () => (
         <div className="relative inline-block mb-4 md:mb-8">
           <div className="absolute inset-0 rounded-full blur-sm bg-gradient-to-r from-teal-400/70 via-yellow-400/70 to-purple-500/70"></div>
           <span className="relative inline-block px-6 py-2 rounded-full text-base md:text-lg bg-black text-white tracking-wide" style={{letterSpacing: '0.02em'}}>
-            💬📱 SMS para ecommerces
+            💬📱 IA para ecommerces
           </span>
         </div>
       </div>
