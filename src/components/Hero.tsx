@@ -12,7 +12,7 @@ const Hero = () => (
         </div>
       </div>
       <h1
-  className="text-3xl sm:text-4xl md:text-7xl font-bold mb-8 leading-tight text-[#e5e5e5] mt-0"
+  className="text-5xl md:text-7xl font-bold mb-8 leading-tight text-[#e5e5e5] mt-0"
   style={{ textShadow: '0 4px 32px rgba(255,255,255,0.15), 0 1.5px 8px rgba(255,255,255,0.10)' }}
 >
   Vendas recorrentes no automático com campanhas personalizadas de e-mail, SMS e voz
