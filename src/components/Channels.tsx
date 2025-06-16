@@ -3,9 +3,9 @@ import { CheckCircle, Brain, Zap, BarChart, DollarSign, MessageCircle, TrendingU
 const features = [
   {
     icon: <MessageCircle className="h-8 w-8 text-gray-400" />,
-    title: "Geração de SMS com IA",
-    subtitle: "Campanhas personalizadas com base nos dados dos seus clientes",
-    description: "Crie e dispare campanhas de SMS automaticamente com textos otimizados por IA, segmentando públicos e aumentando a taxa de abertura e conversão do seu e-commerce.",
+    title: "Campanhas Multicanal com IA",
+    subtitle: "Disparo inteligente por SMS, e-mail e chamadas de voz",
+    description: "Crie campanhas personalizadas e automáticas com base no comportamento do cliente. Alcance seu público no canal certo, na hora certa, aumentando a taxa de resposta e a conversão.",
     image: "/images/SMS.png",
     buttons: [
       { text: "Iniciar teste grátis", primary: true, href: "https://wa.me/5565996203293" },
@@ -13,31 +13,31 @@ const features = [
     ]
   },
   {
+    icon: <Brain className="h-8 w-8 text-gray-400" />,
+    title: "Recompra Personalizada por IA",
+    subtitle: "Aumente o LTV segmentando cada cliente de forma única",
+    description: "Nossa IA analisa histórico de compras, preferências e comportamento para criar funis de recompra automáticos, com mensagens personalizadas que aumentam o ticket médio e a fidelidade.",
+    image: "/images/IA.png"
+  },
+  {
     icon: <TrendingUp className="h-8 w-8 text-gray-400" />,
-    title: "Aumento de Conversão",
-    subtitle: "Mensagens certeiras para cada etapa do funil",
-    description: "Utilize IA para identificar o melhor momento e conteúdo para cada cliente, enviando SMS que realmente convertem e impulsionam o faturamento.",
+    title: "Impulsione Lançamentos e Upsell",
+    subtitle: "Venda mais para quem já confia na sua marca",
+    description: "Crie campanhas de lançamentos e upsell baseadas no interesse real do cliente. Use e-mail, SMS e voz para apresentar novos produtos com alta taxa de conversão.",
     image: "/images/SALES.png"
   },
   {
     icon: <BarChart className="h-8 w-8 text-gray-400" />,
-    title: "Análise de Resultados em Tempo Real",
-    subtitle: "Acompanhe aberturas, cliques e vendas geradas",
-    description: "Veja em tempo real o desempenho das suas campanhas de SMS, com dashboards claros e insights para otimizar cada disparo.",
+    title: "Relatórios em Tempo Real",
+    subtitle: "Monitore resultados de cada canal e mensagem",
+    description: "Acompanhe aberturas, cliques, chamadas atendidas e vendas geradas por cada campanha em dashboards fáceis de interpretar. Tome decisões com base em dados reais.",
     image: "/images/DATA.png"
   },
   {
-    icon: <Brain className="h-8 w-8 text-gray-400" />,
-    title: "Segmentação Inteligente",
-    subtitle: "Aproveite o máximo dos dados do seu e-commerce",
-    description: "A IA analisa o comportamento de compra, preferências e histórico dos clientes para criar segmentos altamente eficazes e personalizados.",
-    image: "/images/IA.png"
-  },
-  {
     icon: <DollarSign className="h-8 w-8 text-gray-400" />,
-    title: "Economia e Eficiência",
-    subtitle: "Automatize e reduza custos operacionais",
-    description: "Automatize o envio de SMS, reduza o trabalho manual e aumente o ROI das suas campanhas, investindo apenas no que traz resultado.",
+    title: "Eficiência Operacional e ROI Elevado",
+    subtitle: "Automatize suas campanhas e escale vendas com baixo custo",
+    description: "Reduza o custo por aquisição e aumente o retorno por cliente com campanhas automáticas e segmentadas, sem depender de tráfego pago.",
     image: "/images/CART.png"
   }
 ];
